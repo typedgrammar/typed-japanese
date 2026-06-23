@@ -269,10 +269,10 @@ In the following sections, we will continue to use these basic capabilities to s
 
 ## Interrogative Sentence Type
 
-Japanese interrogative sentences are typically formed using interrogative words (like なんで, なぜ, どうして) and sentence-final interrogative particles (like の, か). Looking at Ms. Nagasaki Soyo's famous quote "なんで春日影やったの" (Why play Kasukage?), we can identify its structural components:
+Japanese interrogative sentences are typically formed using interrogative words (like なんで, なぜ, どうして) and sentence-final interrogative particles (like の, か). Looking at Ms. Nagasaki Soyo's famous quote "なんで春日影やったの" (Why play Haruhikage?), we can identify its structural components:
 
 1. なんで (why) - interrogative adverb
-2. 春日影 (Kasukage) - the object of the sentence
+2. 春日影 (Haruhikage) - the object of the sentence
 3. やった (played) - past tense form of the verb "やる"
 4. の - interrogative particle
 
@@ -311,7 +311,7 @@ type InterrogativePhrase<
 
 This generic type can take an interrogative adverb, topic (or object), verb, verb form, and interrogative particle as parameters, then combine them according to Japanese grammar rules into a complete interrogative sentence type.
 
-Now, let's see how to use this type system to represent the sentence "なんで春日影やったの" (Why play Kasukage?):
+Now, let's see how to use this type system to represent the sentence "なんで春日影やったの" (Why play Haruhikage?):
 
 ```typescript
 // Define the verb "やる" (do/play)
@@ -330,7 +330,7 @@ type なんで春日影やったの = InterrogativePhrase<
 >;
 
 // Type checking example
-const validQuestion: なんで春日影やったの = "なんで春日影やったの"; // "Why play Kasukage?"
+const validQuestion: なんで春日影やったの = "なんで春日影やったの"; // "Why play Haruhikage?"
 ```
 
 In this way, TypeScript's type system can not only represent the structure of Japanese interrogative sentences but also validate the grammatical correctness of sentences at compile time. This demonstrates how the type system can help us learn and master Japanese grammar rules.
