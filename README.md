@@ -1,12 +1,16 @@
-# 🌸 Typed Japanese
+<a href="https://typedgrammar.com"><img src="./images/typed-grammar.svg" width="64" alt="Typed Grammar"></a>
+
+# Typed Japanese
 
 **If you can write TypeScript, you can understand Japanese!**
+
+Part of [Typed Grammar](https://typedgrammar.com), alongside [Kotone](https://kotone.typedgrammar.com), a Mac lyrics player for learning Japanese through music.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/typedgrammar/typed-japanese)
 
 ![demo](./images/demo.png)
 
-> 🌸 **New: [Interactive Playground →](https://typedgrammar.github.io/typed-japanese/)** — an in-browser TypeScript editor where the compiler resolves conjugations live, plus a Verb Lab, Adjective Lab, Phrase Builder, and Sentence Gallery. ([source](./playground) · run locally with `cd playground && pnpm install && pnpm dev`)
+> 🌸 **[Grammar course →](https://typedgrammar.com/learn/japanese/)**: 47 chapters, in English and 简体中文, where every sentence is a TypeScript type the compiler checks, right in your browser. ([source](./playground) · run locally with `cd playground && pnpm install && pnpm dev`)
 
 Typed Japanese is a TypeScript type-level library that enables the expression of complete Japanese sentences through the type system. It creates a domain-specific language (DSL) based on Japanese grammar rules, allowing a subset of grammatically correct natural language to be written and verified using TypeScript's compiler.
 

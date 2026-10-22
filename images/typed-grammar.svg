@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Typed Grammar: indigo (藍) paper-lettered T, with a vermilion seal -->
+  <defs><linearGradient id="ai" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34599a"/><stop offset="1" stop-color="#22406e"/></linearGradient></defs>
+  <rect width="64" height="64" rx="15" fill="url(#ai)"/>
+  <text x="29" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" fill="#f6f3ec">T</text>
+  <rect x="42" y="40" width="10" height="10" rx="2" fill="#d4573c"/>
+</svg>
