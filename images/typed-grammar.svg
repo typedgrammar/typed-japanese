@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Typed Grammar: indigo (藍) paper-lettered T, with a vermilion seal -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Typed Grammar: T (typed, a type parameter) in Japanese corner brackets 「」, indigo (藍) on paper -->
   <defs><linearGradient id="ai" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#34599a"/><stop offset="1" stop-color="#22406e"/></linearGradient></defs>
-  <rect width="64" height="64" rx="15" fill="url(#ai)"/>
-  <text x="29" y="46" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="600" fill="#f6f3ec">T</text>
-  <rect x="42" y="40" width="10" height="10" rx="2" fill="#d4573c"/>
+  <rect width="100" height="100" rx="22" fill="url(#ai)"/>
+  <path d="M24 64V24H40M76 36V76H60" fill="none" stroke="#8fb1e8" stroke-width="6" stroke-linecap="square"/>
+  <path d="M64.77 43.24L63.12 43.24Q62.45 41.28 60.98 39.05Q59.51 36.81 58.26 36.64Q57.57 36.55 56.56 36.49Q55.55 36.43 54.82 36.43L53.81 36.43L53.81 60.34Q53.81 61.11 54.09 61.70Q54.37 62.29 55.19 62.64Q55.68 62.83 56.72 63.03Q57.77 63.24 58.50 63.32L58.50 65.00L41.50 65.00L41.50 63.32Q42.13 63.26 43.25 63.14Q44.38 63.02 44.79 62.85Q45.63 62.51 45.91 61.93Q46.19 61.35 46.19 60.55L46.19 36.43L45.18 36.43Q44.45 36.43 43.44 36.49Q42.43 36.55 41.74 36.64Q40.49 36.81 39.02 39.05Q37.55 41.28 36.88 43.24L35.23 43.24L35.23 34.51L64.77 34.51Z" fill="#f6f3ec"/>
 </svg>
